@@ -42,7 +42,7 @@ namespace dz4
             {
                 if (value == null || value.Length == 0)
                 {
-                    throw new MyStudentException("Прізвище не може бути порожнім!");
+                    throw new MyStudentException("");
                 }
                 surname = value;
             }
@@ -53,7 +53,7 @@ namespace dz4
             set
             {
                 if (value == null || value.Length == 0)
-                    throw new MyStudentException("Ім'я не може бути порожнім!");
+                    throw new MyStudentException("Surname cannot be empty!");
                 name = value;
             }
         }
@@ -64,7 +64,7 @@ namespace dz4
             set
             {
                 if (value == null || value.Length == 0)
-                    throw new MyStudentException("Група не може бути порожньою!");
+                    throw new MyStudentException("The group cannot be empty!");
                 group = value;
             }
         }
@@ -75,7 +75,7 @@ namespace dz4
             set
             {
                 if (value == null || value.Length == 0)
-                    throw new MyStudentException("По батькові не може бути порожнім!");
+                    throw new MyStudentException("The parent name cannot be empty!");
                 parentname = value;
             }
         }
