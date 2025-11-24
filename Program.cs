@@ -68,7 +68,7 @@ namespace dz4
                             break;
                         }
 
-                        // Programming marks
+                   
                         Console.WriteLine("Enter the marks of programming through space: ");
                         string progr = Console.ReadLine();
                         string[] parts = progr.Split(' ');
